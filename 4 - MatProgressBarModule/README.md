@@ -1,4 +1,4 @@
-# 3 - MatProgressSpinnerModule
+# 4 - MatProgressBarModule
  
 1. open `app.component.ts`
 
@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +15,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
   imports: [
     CommonModule, 
     RouterOutlet,
-    MatProgressSpinnerModule,
+    MatProgressBarModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
@@ -24,13 +23,12 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 export class AppComponent {
   title = 'ag_material_demo';
 }
-
 ```
 
 2. open `app.component.html`
 
 ```
-<mat-spinner></mat-spinner>
+<mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
 ```
 
 3. open `app.component.scss`
@@ -38,6 +36,10 @@ export class AppComponent {
 ```
 * {
     margin: 40px;
+}
+
+mat-progress-bar {
+    width: 200px;
 }
 ```
 
