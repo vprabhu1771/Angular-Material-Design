@@ -12,3 +12,11 @@
 5. [MatSlideToggleModule](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/5%20-%20MatSlideToggleModule)
 
 6. [MatDividerModule](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/6%20-%20MatDividerModule)
+
+7. [MatTabsModule](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/7%20-%20MatTabsModule)
+
+8. [MatSliderModule](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/8%20-%20MatSliderModule)
+
+9. [MatSliderModule - Selecting a range](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/9%20-%20MatSliderModule%20-%20Selecting%20a%20range)
+
+10. [MatSliderModule - Formatting the thumb label](https://github.com/vprabhu1771/Angular-Material-Design/tree/main/10%20-%20MatSliderModule%20-%20Formatting%20the%20thumb%20label)
