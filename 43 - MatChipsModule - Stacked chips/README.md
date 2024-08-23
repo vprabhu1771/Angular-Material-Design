@@ -1,4 +1,4 @@
-# 44 - MatChipsModule - Chips Autocomplete
+# 43 - MatChipsModule - Stacked chips
  
 1. open `app.component.ts`
 
