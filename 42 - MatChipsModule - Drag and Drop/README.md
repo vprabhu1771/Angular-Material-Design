@@ -1,4 +1,4 @@
-# 43 - MatChipsModule - Stacked chips
+# 42 - MatChipsModule - Drag and Drop
  
 1. open `app.component.ts`
 
