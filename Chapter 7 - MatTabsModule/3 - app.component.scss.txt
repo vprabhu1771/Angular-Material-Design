@@ -1,0 +1,7 @@
+* {
+    margin: 40px;
+}
+
+mat-tab-group {
+    width: 600px;
+}

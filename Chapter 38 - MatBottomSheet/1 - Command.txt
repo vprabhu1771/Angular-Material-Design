@@ -1,0 +1,6 @@
+ng g c bottom-sheet-overview
+
+CREATE src/app/bottom-sheet-overview/bottom-sheet-overview.component.html (37 bytes)
+CREATE src/app/bottom-sheet-overview/bottom-sheet-overview.component.spec.ts (712 bytes)
+CREATE src/app/bottom-sheet-overview/bottom-sheet-overview.component.ts (305 bytes)
+CREATE src/app/bottom-sheet-overview/bottom-sheet-overview.component.scss (0 bytes)

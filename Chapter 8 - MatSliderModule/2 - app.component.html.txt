@@ -1,0 +1,5 @@
+<mat-slider class="custom">
+  
+  <input matSliderThumb>
+
+</mat-slider>

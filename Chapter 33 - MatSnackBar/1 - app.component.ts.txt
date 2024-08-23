@@ -1,0 +1,48 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+
+import {MatButtonModule} from '@angular/material/button';
+import {MatSnackBar} from '@angular/material/snack-bar';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [
+    CommonModule, 
+    RouterOutlet,
+
+    MatButtonModule, 
+  ],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
+})
+export class AppComponent {
+
+  title = 'ag_material_demo';
+
+  constructor(private _snackBar: MatSnackBar) {}
+  
+  simpleSnackbar(): void {
+    this._snackBar.open('Simple Snackbar');
+  }
+
+  snackbarWithAction(): void {
+    let snackBarRef = this._snackBar.open('Snackbar with Action', 'Undo');
+    snackBarRef.onAction().subscribe(() => {
+      // Handle action here
+      console.log('Action clicked!');
+    });
+  }
+
+  snackbarWithDismissal(): void {
+    let snackBarRef = this._snackBar.open('Snackbar with Dismissal', 'Close', {
+      duration: 3000
+    });
+    snackBarRef.afterDismissed().subscribe(() => {
+      // Handle dismissal here
+      console.log('Snackbar dismissed!');
+    });
+  }
+
+}

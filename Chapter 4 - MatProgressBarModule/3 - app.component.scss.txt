@@ -1,0 +1,7 @@
+* {
+    margin: 40px;
+}
+
+mat-progress-bar {
+    width: 200px;
+}

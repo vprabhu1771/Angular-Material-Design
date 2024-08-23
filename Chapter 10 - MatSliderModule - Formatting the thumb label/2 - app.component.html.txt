@@ -1,0 +1,12 @@
+<mat-slider 
+min="0" 
+max="100000" 
+step="1000" 
+showTickMarks 
+discrete 
+[displayWith]="formatLabel" 
+class="custom">
+
+  <input matSliderThumb>
+  
+</mat-slider>

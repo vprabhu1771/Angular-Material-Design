@@ -1,0 +1,10 @@
+// remove below code to fill appbar full width
+p {
+  margin: 40px;
+  width: 400px;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,15 @@
+<div>
+
+  <label id="example-radio-group-label">Gender</label>
+
+  <mat-radio-group aria-label="Select an option" [(ngModel)]="selectedGender">
+
+    <mat-radio-button value="male">Male</mat-radio-button>
+  
+    <mat-radio-button value="female">Female</mat-radio-button>
+  
+  </mat-radio-group>
+
+  <div>Selected Gender is: {{selectedGender}}</div>
+
+</div>

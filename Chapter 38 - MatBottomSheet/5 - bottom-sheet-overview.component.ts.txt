@@ -1,0 +1,24 @@
+import { Component } from '@angular/core';
+import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
+
+import {MatListModule} from '@angular/material/list';
+
+@Component({
+  selector: 'app-bottom-sheet-overview',
+  standalone: true,
+  imports: [
+    MatListModule
+  ],
+  templateUrl: './bottom-sheet-overview.component.html',
+  styleUrl: './bottom-sheet-overview.component.scss'
+})
+export class BottomSheetOverviewComponent {
+
+  constructor(private _bottomSheetRef: MatBottomSheetRef<BottomSheetOverviewComponent>) {}
+
+  openLink(event: MouseEvent): void {
+    this._bottomSheetRef.dismiss();
+    event.preventDefault();
+  }
+
+}

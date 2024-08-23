@@ -1,0 +1,7 @@
+mat-chip-listbox {
+    margin: 40px;
+}
+
+.mat-mdc-chip-set {
+    max-width: 200px;
+}

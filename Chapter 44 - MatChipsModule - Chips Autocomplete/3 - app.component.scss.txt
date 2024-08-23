@@ -1,0 +1,7 @@
+form {
+    margin: 40px;
+}
+
+.example-chip-list {
+    width: 20%;
+}

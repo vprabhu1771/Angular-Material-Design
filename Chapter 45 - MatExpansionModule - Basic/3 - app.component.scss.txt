@@ -1,0 +1,7 @@
+mat-accordion {
+    margin: 40px;
+}
+
+mat-expansion-panel {
+    width: 40%;
+}

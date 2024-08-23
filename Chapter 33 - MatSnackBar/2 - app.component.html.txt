@@ -1,0 +1,17 @@
+<button 
+mat-stroked-button 
+(click)="simpleSnackbar()">
+Simple Snackbar
+</button>
+
+<button 
+mat-stroked-button 
+(click)="snackbarWithAction()">
+Snackbar with Action
+</button>
+
+<button 
+mat-stroked-button 
+(click)="snackbarWithDismissal()">
+Snackbar with Dismissal
+</button>

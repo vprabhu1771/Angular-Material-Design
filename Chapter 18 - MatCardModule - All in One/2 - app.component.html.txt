@@ -1,0 +1,22 @@
+<mat-card>
+
+  <mat-card-header>Heading</mat-card-header>
+  
+  <img mat-card-image 
+  width="100px"
+  height="100px"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/892px-Wikipedia-logo-v2-en.svg.png">
+
+  <mat-card-actions>
+
+    <button mat-button color="primary">Primary</button>
+
+    <button mat-button color="accent">Accent</button>
+    
+  </mat-card-actions>
+
+  <mat-card-content>Simple card</mat-card-content>
+
+  <mat-card-footer>Footer</mat-card-footer>
+
+</mat-card>

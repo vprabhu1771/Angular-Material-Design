@@ -1,0 +1,25 @@
+<div>
+
+  <h4>Select with 2-way value binding</h4>
+
+  <mat-form-field>
+
+    <mat-label>Select an option</mat-label>
+
+    <mat-select [(value)]="selected">
+
+      <mat-option>None</mat-option>
+
+      <mat-option value="apple">Apple</mat-option>
+
+      <mat-option value="orange">Orange</mat-option>
+
+      <mat-option value="mango">Mango</mat-option>
+
+    </mat-select>
+
+  </mat-form-field>
+  
+  <p>You selected: {{selected}}</p>  
+
+</div>

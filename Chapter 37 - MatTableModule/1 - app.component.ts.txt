@@ -1,0 +1,56 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
+
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatIconModule} from '@angular/material/icon';
+
+import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
+
+import {MatTableModule} from '@angular/material/table';
+
+
+export interface BloodGroup {
+  id: string;
+  name: string;
+}
+
+const ELEMENT_DATA: BloodGroup[] = [
+  {id: "1", name: 'A+'},
+  {id: "2", name: 'A-'},
+  {id: "3", name: 'B+'},
+  {id: "4", name: 'B-'},
+]
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [
+    CommonModule, 
+    RouterOutlet,
+    MatSlideToggleModule,
+    MatIconModule,
+    MatDividerModule,
+    MatButtonModule,
+    MatTableModule
+  ],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
+})
+export class AppComponent {
+
+  title = 'ag_material_demo';
+
+  public displayBasicButtonMessage()
+  {
+    console.log("Successfully ");
+    
+  }
+
+  // Table Code
+  displayedColumns: string[] = ['id', 'name'];
+
+  dataSource = ELEMENT_DATA;
+  
+}

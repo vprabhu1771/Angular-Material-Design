@@ -1,0 +1,7 @@
+* {
+    margin: 40px;
+}
+
+mat-list {
+    width: 300px;
+}

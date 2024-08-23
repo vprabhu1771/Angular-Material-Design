@@ -1,0 +1,7 @@
+.example-section {
+  margin: 40px;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
